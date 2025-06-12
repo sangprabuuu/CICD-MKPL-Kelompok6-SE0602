@@ -34,7 +34,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.projectKey=dimzkuy_CICD-MKPL-Kelompok6
+            -Dsonar.projectKey=dimzkuy_CICD-MKPL-Kelompok6-SE0602
             -Dsonar.organization=dimzkuy
             -Dsonar.python.version=3.10
             -Dsonar.sources=src/app
