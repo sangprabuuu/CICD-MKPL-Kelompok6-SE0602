@@ -6,7 +6,7 @@ app = Flask(__name__)
 def beranda():
     return "Kalkulator sederhana aktif"
 
-def ambil_argumen():
+def ambil_argumenen():
     try:
         a = float(request.args.get("a", 0))
         b = float(request.args.get("b", 0))
